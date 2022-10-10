@@ -322,6 +322,7 @@ nav ul.dropdown-list {
     width: 28px;
     height: 2px;
     margin-bottom: 8px;
+    z-index: 1;
 }
 
 .mobile ul.nav-list {
@@ -338,7 +339,6 @@ nav ul.dropdown-list {
     opacity: 0;
     pointer-events: none;
     transition: all .3s ease-in-out;
-    z-index: 1;
 }
 
 .hamburger,
