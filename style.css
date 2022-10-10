@@ -322,7 +322,7 @@ nav ul.dropdown-list {
     width: 28px;
     height: 2px;
     margin-bottom: 8px;
-    z-index: 1;
+    z-index: -1;
 }
 
 .mobile ul.nav-list {
