@@ -315,7 +315,6 @@ nav ul.dropdown-list {
     flex-direction: column;
     padding: 20px 0;
     cursor: pointer;
-    z-index: 1;
 }
 
 .mobile .hamburger span {
@@ -339,6 +338,7 @@ nav ul.dropdown-list {
     opacity: 0;
     pointer-events: none;
     transition: all .3s ease-in-out;
+    z-index: 1;
 }
 
 .hamburger,
